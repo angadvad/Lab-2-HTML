@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Articles</title>
+    <meta charset="utf-8">
+    <style>
+        div {
+            padding: 5px;
+        }
+
+        form {
+            border-style: double;
+            border-width: 10px;
+            border-radius: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> ARTICLES </h1>
+        <li><a href="index.html">Home</a></li>
+    </header>
+
+    <article>
+        <!-- <form name ="e1">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" value="Bob Ross"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="bobross@gmail.com"><br>
+            <input type="submit" value="Submit" onclick="ValidateName(document.e1.name),ValidateEmail(document.e1.email)">
+        </form> -->
+        <br>
+        <form method="POST" action="http://localhost:3000/profile">
+            <div>
+                <label for="fname"> First Name: </label><br>
+                <input type="first name" id="fname" value="Bob">
+            </div>
+
+            <div>
+                <label for="lname"> Last Name: </label><br>
+                <input type="last name" id="lname" value="Ross">
+            </div>
+
+            <div>
+                <label for="age1"> Age Group: </label><br>
+                <input type="radio" id="age1" name="age" value="25">
+                <label for="age1">0 - 25</label><br>
+                <input type="radio" id="age2" name="age" value="50">
+                <label for="age2">26 - 50</label><br>
+                <input type="radio" id="age3" name="age" value="75">
+                <label for="age3">51 - 75</label><br>
+                <input type="radio" id="age4" name="age" value="100">
+                <label for="age3">76 - 100+</label><br><br>
+            </div>
+
+            <div>
+                <label for="travel">How do you get to work</label>
+                <select name="travel" id="travel">
+                    <option value="car">Car</option>
+                    <option value="bus">Bus</option>
+                    <option value="walk">Walking</option>
+                    <option value="ebike">eBike</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="elist"> Subscribe to email list </label>
+                <input type="checkbox" id="elist" checked value="elist checked">
+                <label for="box"> Check this box </label>
+                <input type="checkbox" id="box" value="checked">
+            </div>
+
+            <div>
+                <button type="submit">Submit form</button>
+            </div>
+
+        </form>
+
+    </article>
+    <footer>
+
+        <p>@copyright 2050 by nobody. all rights reversed</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

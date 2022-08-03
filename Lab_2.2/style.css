@@ -1,0 +1,55 @@
+article{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* class "style-me1" */
+.style-me1{
+    color:red
+}
+
+/* element id "style-me2" */
+#style-me2{
+    color:blue
+}
+
+/* class "style-me1" & element id "style-me2" */
+.style-me1#style-me2{
+    color:purple
+}
+
+/* "p" decendants of this class */
+.my-descendants-are-styled p{
+    background-color: red;
+    width: 200px;
+    border-width: 100px;
+}
+
+.my-children-are-styled p{
+    background-color:blue;
+    color:white;
+}
+
+.box{
+    /*Q1*/
+    margin: 10px 300px 30px 40px; /* TOP RIGHT BOT LEFT */
+    padding: 5px 15px; /* TOP/BOT  LEFT/RIGHT*/
+
+    /*Q2*/
+    width:30vw;
+    height:30vh;
+
+    /*Q3*/
+    border: 10px ridge blueviolet;
+    border-radius: 10px;
+}
+
+
+/*
+4. box-sizing
+    4.1 Test different values of box-sizing. How is box-sizing affecting width and height of the element?
+5. text-overflow
+    5.1 Make text overflow outside of the element by setting width and height to smaller values so the text in a second box goes over the box borders.
+    5.2 Set overflow CSS rule for .box class - test different values of overflow. What does they affect the box?
+

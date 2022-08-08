@@ -78,13 +78,12 @@ article{
 .position-absolute{
 
     position:absolute;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .position-relative{
     position:relative;
     left:50px;
-    top:200px;
 }
 
 .position-sticky{
@@ -92,22 +91,63 @@ article{
     top: 0;
     padding:10px;
     font-size:20px;
+    background-color: rgb(57, 149, 251);
 }
 
 /*IV. Styling text*/
+.text-style{
+    color:midnightblue;
+    font-size:large;
+    line-height: 10px;
+    font-weight: 900;
+    text-align:right;
+    letter-spacing: 10px;
+    word-spacing:10px;
+    text-transform: capitalize;
+    text-decoration: underline overline;
 
-/*
+}
 
-In this section we’ll focus on styling text. Search for the answers on the Internet.
-1. Color - set font color using `color` CSS rule on .text-style class
-2. Font-size - set font-size CSS rule on .text-style class
-3. Line-height - set line-height CSS rule on .text-style class
-4. font-weight - set font-weight CSS rule on .text-style class
-    4.1 Try both, keyword and number values, e.g. `bold` and `800`
-5. Importing fonts and font-family
-    5.1 Visit https://fonts.google.com/
-    5.2 find fonts that you like
-    5.3 Click select style on various flavours of the same font. Selecting font styles is used to save the bandwidth for the user, if we don’t intend to use certain styles of the font then we shouldn’t select them.
+.style-text{
+    font-family: 'PT Serif', serif;
+}
 
-Select the styles. Especially consider the font-weight you set before. `Regular 400` on the list 
-*/
+/*V. Styling links*/
+
+a{
+    font-size:xx-large;
+    color:BLACK;
+}
+
+a:link{
+    font-weight: 900;
+}
+
+a:visited{
+    color:bisque;
+}
+
+a:hover{
+    text-decoration: line-through;
+}
+
+a:active{
+    font-weight: 100;
+    color:black;
+}
+
+a:focus{
+    font-size:medium;
+    color:blue;
+}
+
+/*VI. calc()*/
+
+.calc-style{
+    background-color: blue;
+    width:calc(100vw-100px);
+    padding:50px;
+    margin: 50px;
+    position:relative;
+    top:500px;
+}

@@ -31,10 +31,12 @@ article{
     color:white;
 }
 
+/* II. Box model and common properties */
+
 .box{
     /*Q1*/
-    margin: 10px 300px 30px 40px; /* TOP RIGHT BOT LEFT */
-    padding: 5px 15px; /* TOP/BOT  LEFT/RIGHT*/
+    margin: 50px 50px; /* TOP RIGHT BOT LEFT */
+    padding: 15px 15px; /* TOP/BOT  LEFT/RIGHT*/
 
     /*Q2*/
     width:30vw;
@@ -42,14 +44,70 @@ article{
 
     /*Q3*/
     border: 10px ridge blueviolet;
+    
+
+    /*Q4*/
+    box-sizing: border-box;
+
+    /*Q5*/
+    width: 20vw;
+    height: 20vh;
+    overflow:hidden;
+
+    /*Q6*/
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: red ;
+    outline-offset: 2px;
+
+    /*Q7*/
     border-radius: 10px;
+    border-radius: 50%;
+
+    /*Q8*/
+    width: 50vw;
+    height: 50vh;
+    background-image: url("image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
+/* III. Positioning */
+
+.position-absolute{
+
+    position:absolute;
+    z-index: 1;
+}
+
+.position-relative{
+    position:relative;
+    left:50px;
+    top:200px;
+}
+
+.position-sticky{
+    position: sticky;
+    top: 0;
+    padding:10px;
+    font-size:20px;
+}
+
+/*IV. Styling text*/
 
 /*
-4. box-sizing
-    4.1 Test different values of box-sizing. How is box-sizing affecting width and height of the element?
-5. text-overflow
-    5.1 Make text overflow outside of the element by setting width and height to smaller values so the text in a second box goes over the box borders.
-    5.2 Set overflow CSS rule for .box class - test different values of overflow. What does they affect the box?
 
+In this section we’ll focus on styling text. Search for the answers on the Internet.
+1. Color - set font color using `color` CSS rule on .text-style class
+2. Font-size - set font-size CSS rule on .text-style class
+3. Line-height - set line-height CSS rule on .text-style class
+4. font-weight - set font-weight CSS rule on .text-style class
+    4.1 Try both, keyword and number values, e.g. `bold` and `800`
+5. Importing fonts and font-family
+    5.1 Visit https://fonts.google.com/
+    5.2 find fonts that you like
+    5.3 Click select style on various flavours of the same font. Selecting font styles is used to save the bandwidth for the user, if we don’t intend to use certain styles of the font then we shouldn’t select them.
+
+Select the styles. Especially consider the font-weight you set before. `Regular 400` on the list 
+*/

@@ -1,0 +1,77 @@
+.flex-container{
+    display:flex;
+}
+
+*{
+    margin:5px;
+}
+.background-1{
+    background-color: rgb(129, 212, 250);
+}
+
+.background-2{
+    background-color: rgb(3, 155, 229)	;
+}
+
+.background-3{
+    background-color: rgb(2, 119, 189);
+}
+
+.background-4{
+    background-color: rgb(1, 87, 155);
+}
+
+.h-80{
+    height:80px;
+}
+
+.w-80{
+    width:80px;
+}
+
+.h-400{
+    height:400px;
+}
+
+.flex-item-1{
+    flex: 1;
+}
+
+.flex-item-2{
+    flex: 2;
+}
+
+
+.flex-item-3{
+    flex: 3;
+}
+
+
+.flex-item-4{
+    flex: 4;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-basis-item-50{
+    flex-basis:50%;
+    margin:0;
+}
+
+/*
+5. Wrapping items
+   5.1 fill in the rule for flex-basis-50 and flex-wrap so the container has `flex-wrap: wrap;` and flex items have flex-basis set to 50%
+6. Try changing flex-direction or using different values for flexbox containers and items. Use the reference below to find some of the commonly used values.
+
+*/

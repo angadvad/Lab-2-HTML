@@ -68,10 +68,3 @@
     flex-basis:50%;
     margin:0;
 }
-
-/*
-5. Wrapping items
-   5.1 fill in the rule for flex-basis-50 and flex-wrap so the container has `flex-wrap: wrap;` and flex items have flex-basis set to 50%
-6. Try changing flex-direction or using different values for flexbox containers and items. Use the reference below to find some of the commonly used values.
-
-*/

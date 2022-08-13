@@ -1,0 +1,72 @@
+.flex-container{
+    display:flex;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background{
+    background-color: white;
+    border: solid 1px;
+    border-color: black;
+    margin-bottom:10px;
+}
+
+
+.flexHeader{
+    flex-direction: row;
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    border: 0px;
+  }
+
+.flexSingle{
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    padding-left:40px;
+    cursor: pointer;
+}
+
+
+.flexSingle>h1{
+    text-decoration: underline;
+}
+
+.flexRow{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexDouble{
+    width: 45vw;
+    height: 50vh;
+    margin: 10px;
+    overflow: hidden;
+    padding-left:30px;
+
+}
+
+.flexThinSingle{
+    width: 100vw;
+    height: 10vh;
+    overflow: hidden;
+    padding-left:40px;
+
+}
+
+  .slide-down-button,
+  .slide-up-button {
+    display: inline-block;
+  }
+  
